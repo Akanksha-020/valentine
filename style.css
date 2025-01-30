@@ -1,0 +1,37 @@
+/* Center the page and style buttons */
+body {
+  background-color: #ffe6f2;
+  font-family: 'Comic Sans MS', cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #ff4da6;
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 15px;
+  position: relative;
+}
+
+#yes-btn {
+  background-color: #ff66b2;
+  color: white;
+}
+
+#no-btn {
+  background-color: #ffcccc;
+  color: black;
+  position: absolute;
+}
